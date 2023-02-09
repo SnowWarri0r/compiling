@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/workspace/cpp/grammar/grammar.h
+unordered_set
+-
+unordered_map
+-
+fstream
+-
+iostream
+-
+vector
+-
+algorithm
+-
+iomanip
+-
+stack
+-
+
+D:/workspace/cpp/grammar/lexer.h
+string
+-
+vector
+-
+io.h
+-
+
+D:/workspace/cpp/grammar/main.cpp
+grammar.h
+D:/workspace/cpp/grammar/grammar.h
+lexer.h
+D:/workspace/cpp/grammar/lexer.h
+

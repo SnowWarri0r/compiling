@@ -1,0 +1,3 @@
+"E:\CLion 2020.2.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\grammar.dir/objects.a
+E:\msys2\mingw64\bin\ar.exe qc CMakeFiles\grammar.dir/objects.a @CMakeFiles\grammar.dir\objects1.rsp
+E:\msys2\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\grammar.dir/objects.a -Wl,--no-whole-archive -o grammar.exe -Wl,--out-implib,libgrammar.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\grammar.dir\linklibs.rsp
